@@ -1,0 +1,1 @@
+Minimal Q&A platform for Odoo Hackathon 2025
