@@ -10,7 +10,7 @@ const answerSchema = new mongoose.Schema({
       value: { type: Number, enum: [1, -1] }
     }
   ],
-  isApproved: { type: Boolean, default: false },
+  isApproved: { type: Boolean, default: true },
   adminComment: { type: String },
   createdAt: { type: Date, default: Date.now },
   updatedAt: Date
