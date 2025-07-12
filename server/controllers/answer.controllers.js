@@ -1,5 +1,5 @@
 const Answer = require('../models/answer.models');
-const Question = require('../models/question.models');
+const Question = require('../models/questions.models');
 const Notification = require('../models/notification.models');
 
 exports.createAnswer = async (req, res) => {

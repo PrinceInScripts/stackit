@@ -1,9 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import authReducer from './store/auth.slice';
-import userReducer from './store/user.slice';
-import questionReducer from './store/questions.slice';
-import answerReducer from './store/answer.slice';
-import notificationReducer from './store/notification.slice';
+import authReducer from '../features/auth/auth.slice';
+import userReducer from '../features/user/user.slice';
+import questionReducer from '../features/questions/questions.slice';
+import answerReducer from '../features/answers/answer.slice';
+import notificationReducer from '../features/notification/notification.slice';
+
 
 export const store = configureStore({
   reducer: {

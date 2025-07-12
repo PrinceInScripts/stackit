@@ -91,6 +91,7 @@ const questionSlice = createSlice({
       })
       .addCase(getSingleQuestion.fulfilled, (state, action) => {
         state.loading = false;
+        console.log('Fetched single question:', action.payload);
         state.single = action.payload;
       })
       .addCase(getSingleQuestion.rejected, (state, action) => {
